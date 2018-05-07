@@ -1,0 +1,11 @@
+{
+  "name": "upwire",
+  "version": "1.0.3",
+  "description": "Package to integrate with Upwire services",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kieran Hackshall",
+  "license": "SEE LICENSE IN LICENSE.md"
+}
