@@ -14,7 +14,7 @@ Then, require the package with your Upwire usenrame and passcode:
 
 Services from the Upwire API https://upwire.docs.apiary.io/  can be executed by calling a method with options. 
 
-For example to sned an SMS:
+For example to send an SMS:
 
 	options = {
         	"callerid": "[callerid]",
