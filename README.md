@@ -22,7 +22,7 @@ For example to send an SMS:
         	"message": "Test message from Upwire"
 	}
 
-	Upwire.Master.create(options)
+	Upwire.Message.send(options)
         	.then(function(value) {
                 	console.log(value);
         	})

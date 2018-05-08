@@ -1,6 +1,6 @@
 {
   "name": "upwire",
-  "version": "1.0.7",
+  "version": "1.0.9",
   "description": "Package to integrate with Upwire services",
   "main": "index.js",
   "scripts": {
