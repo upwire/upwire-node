@@ -14,11 +14,12 @@ Then, require the package with your Upwire usenrame and passcode:
 
 Services from the Upwire API https://upwire.docs.apiary.io/  can be executed by calling a method with options. 
 
-For example to create a masterJob:
+For example to sned an SMS:
 
 	options = {
-        	"templateId": "[templateid]",
-        	"data": "[base64 encoded CSV]"
+        	"callerid": "[callerid]",
+        	"destinations": "[destination]",
+        	"message": "Test message from Upwire"
 	}
 
 	Upwire.Master.create(options)
@@ -28,4 +29,6 @@ For example to create a masterJob:
         	.catch(function(err) {
                 	console.log(err);
         	})
+
+Note: 'callerid' must be an SMS enabled number purchased from Upwire and 'destination' must be in international number format.
 
